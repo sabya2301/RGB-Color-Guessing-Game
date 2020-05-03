@@ -2,11 +2,21 @@
 <html>
 <head>
 	<title>Color</title>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap" rel="stylesheet"> -->
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="colorProject2.css">
 </head>
 <body>
-	<h1>The Great <span id="guessColorDisplay">RGB</span> Game</h1>
-	<p id= "messageDisplay">BEST OF LUCK !</p>
+	<h1>THE GREAT<br><span id="guessColorDisplay">RGB</span><br> GUESSING GAME</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id= "messageDisplay">BEST OF LUCK !</span>
+		<button id="easy">Easy</button>
+		<button id="hard" class="selected">Hard</button>
+	</div>
 	<div id="container">
 		<div class="square"></div>
 		<div class="square"></div>
