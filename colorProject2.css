@@ -4,7 +4,6 @@ body
 {
 	background: #232323;
 	margin: 0;
-	/*font-family: 'Montserrat', sans-serif;*/
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -38,20 +37,12 @@ h1
 	animation: glow 2s ease-in-out infinite alternate;
 }
 
-/*p
-{
-	color: white;
-	float: right;
-	text-align: center;
-}
-*/
 #stripe
 {
 	height: 30px;
 	background: white;
 	text-align: center;
 	margin: 0 auto;
-	/*float: right;*/
 }
 
 
