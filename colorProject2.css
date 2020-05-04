@@ -88,3 +88,18 @@ button:hover
 	background: steelblue;
 	color: white;
 }
+
+#help
+{
+	padding:0 30px;
+}
+
+#score
+{
+	font-weight: 700;
+}
+
+#lost
+{
+	font-weight: 700;
+}
